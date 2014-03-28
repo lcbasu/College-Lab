@@ -1,0 +1,9 @@
+Tanenbaum Chapter 3 [CRC]
+
+Frame  : 1101011111
+Generator : 10011
+Degree : 4
+
+
+WikiPedia [IPv4 header checksum]
+IP Header : 45000073000040004011B861C0A80001C0A800C7

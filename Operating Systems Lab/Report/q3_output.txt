@@ -1,0 +1,16 @@
+lokesh@ubuntu:~/Dropbox/OS/LS1$ g++ q3.cpp -o q3.out
+lokesh@ubuntu:~/Dropbox/OS/LS1$ ./q3.out
+
+How many elemets for Ready Queue: 
+2
+How many elemets for Job Queue: 
+3
+How many elemets for Waiting Queue: 
+6
+
+Ready Queue with process IDs (PIDs):	172	150	
+Job Queue with process IDs (PIDs):	172	165	111	
+Waiting Queue with process IDs (PIDs):	179	168	164	141	147	184	
+
+
+lokesh@ubuntu:~/Dropbox/OS/LS1$ 

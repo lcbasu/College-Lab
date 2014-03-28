@@ -1,0 +1,87 @@
+lokesh@ubuntu:~/Dropbox/OS/LS1$ g++ q4.cpp -o q4.out
+lokesh@ubuntu:~/Dropbox/OS/LS1$ ./q4.out
+How many elemets for Ready Queue:
+1
+How many elemets for Job Queue:
+2
+How many elemets for Waiting Queue:
+3
+
+Ready Queue with process IDs (PIDs):	148
+Job Queue with process IDs (PIDs):	193	121
+Waiting Queue with process IDs (PIDs):	192	123	176
+
+
+	Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 1
+
+
+All the Queues after Scheduler Dispatch:
+
+
+
+Ready Queue with process IDs (PIDs):
+Job Queue with process IDs (PIDs):	193	121	148
+Waiting Queue with process IDs (PIDs):	192	123	176
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 2
+
+
+All the Queues after Interrupt:
+
+
+
+Ready Queue with process IDs (PIDs):	193
+Job Queue with process IDs (PIDs):	121	148
+Waiting Queue with process IDs (PIDs):	192	123	176
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	193	192
+Job Queue with process IDs (PIDs):	121	148
+Waiting Queue with process IDs (PIDs):	123	176
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 

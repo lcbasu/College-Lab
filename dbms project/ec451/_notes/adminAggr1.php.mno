@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_getComplainFrequency" value="name:Complain;datatype:string,name:Frequency;datatype:int" />
+</info>

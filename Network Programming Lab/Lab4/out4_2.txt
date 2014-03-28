@@ -1,0 +1,23 @@
+Server: Length of array: 10
+Server: Integer 0 : 4
+Server: Integer 1 : 2
+Server: Integer 2 : 8
+Server: Integer 3 : 6
+Server: Integer 4 : 5
+Server: Integer 5 : 9
+Server: Integer 6 : 1
+Server: Integer 7 : 13
+Server: Integer 8 : 11
+Server: Integer 9 : 7
+Server: Sorted and sending array to client
+Client: Sending array to Server for sorting 
+Client: Integer 0 : 1
+Client: Integer 1 : 2
+Client: Integer 2 : 4
+Client: Integer 3 : 5
+Client: Integer 4 : 6
+Client: Integer 5 : 7
+Client: Integer 6 : 8
+Client: Integer 7 : 9
+Client: Integer 8 : 11
+Client: Integer 9 : 13

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_getCivilProblems" value="name:complainNo;datatype:int,name:personName;datatype:string,name:personID;datatype:int,name:personType;datatype:string,name:bhawan;datatype:string,name:roomNo;datatype:string,name:phoneNo;datatype:int,name:email;datatype:string,name:availFrom;datatype:int,name:availTill;datatype:int,name:complainType;datatype:string,name:complainDescr;datatype:blob,name:complainTime;datatype:timestamp,name:complainStatus;datatype:string" />
+</info>

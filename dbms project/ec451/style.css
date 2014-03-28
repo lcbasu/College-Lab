@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FFF;
+	color: #000;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:50px;
+	text-align: left;
+}
+form {
+	margin-left:50px;
+}
+label {
+	font-weight:bold;
+	display:block;
+}
+.textfields, textarea {
+	width:500px;
+}
+textarea {
+	height:200px;
+}
+td {
+	vertical-align:top;
+	padding:2px 5px;
+}

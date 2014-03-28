@@ -1,0 +1,241 @@
+lokesh@ubuntu:~/Dropbox/OS/LS1$ g++ q4.cpp -o q4.out
+lokesh@ubuntu:~/Dropbox/OS/LS1$ ./q4.out
+
+How many elemets for Ready Queue: 
+4
+How many elemets for Job Queue: 
+5
+How many elemets for Waiting Queue: 
+5
+
+Ready Queue with process IDs (PIDs):	188	112	122	142	
+Job Queue with process IDs (PIDs):	183	101	171	177	182	
+Waiting Queue with process IDs (PIDs):	192	141	107	172	106	
+
+
+	Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 1
+
+
+All the Queues after Scheduler Dispatch:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	
+Job Queue with process IDs (PIDs):	183	101	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	192	141	107	172	106	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 2
+
+
+All the Queues after Interrupt:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	
+Job Queue with process IDs (PIDs):	101	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	192	141	107	172	106	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 3
+
+
+All the Queues after I/O Event Wait:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	192	141	107	172	106	101	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	141	107	172	106	101	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 
+4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	141	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	107	172	106	101	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	141	107	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	172	106	101	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	141	107	172	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	106	101	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	141	107	172	106	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	101	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+All the Queues after I/O Event Completion:
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	141	107	172	106	101	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	
+
+
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): 4
+
+
+Waiting Queue Empty.
+Event Completion can't take place!
+Menu:
+
+
+	1. Scheduler
+	2. Interrupt
+	3. I/O Event Wait
+	4. I/O Event Completion
+
+
+Enter your choice(1,2,3,4 or -1 for exit): -1
+
+
+All the Queues after Scheduler Dispatch, Interrupt and I/O Event
+
+
+
+Ready Queue with process IDs (PIDs):	112	122	142	183	192	141	107	172	106	101	
+Job Queue with process IDs (PIDs):	171	177	182	188	
+Waiting Queue with process IDs (PIDs):	
+
+
+lokesh@ubuntu:~/Dropbox/OS/LS1$
